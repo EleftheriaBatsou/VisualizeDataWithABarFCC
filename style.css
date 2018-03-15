@@ -1,0 +1,32 @@
+body {
+ background-color:lightgray;
+}
+h1, h3, p{
+  text-align:center;
+}
+.axis {
+    font: 15px Arial, sans-serif;
+}
+.graph-svg-component {
+  background-color:white;
+  display: block;
+  margin: auto;
+}
+.axis path, .axis line {
+    fill: none;
+    stroke: #3A3A3A;
+}
+
+/*
+ * Footer
+ */
+a:link    {color:orangered;  text-decoration:none}
+a:visited {color:orangered; text-decoration:none}
+a:hover   {color:red; text-decoration:underline}
+
+.tableFooter{
+  margin-top: 15px;
+}
+.footerSvg{
+  width: 32px;
+}
